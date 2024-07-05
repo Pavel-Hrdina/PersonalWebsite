@@ -15,4 +15,5 @@ This project is licensed under the [MIT](LICENSE) License - see the LICENSE.md f
 # Acknowledgments
 
 [Simple.css](https://github.com/kevquirk/simple.css)
+
 [a11y-boilerplate](https://github.com/jbmoelker/a11y-boilerplate)
