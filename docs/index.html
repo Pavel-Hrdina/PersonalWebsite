@@ -15,7 +15,7 @@
     />
     <meta
       name="keywords"
-      content="a11y, accessibility, html5, boilerplate, template, aria, landmark roles, structure, banner, search, navigation, contentinfo"
+      content="accessibility, html5"
     />
     <meta
       property="og:image"
@@ -56,22 +56,26 @@
         ]);
       </script>
     <![endif]-->
-
-    <!-- Include stylesheets here. Concatenate & minify for performance: https://developers.google.com/speed/docs/insights/MinifyResources -->
-    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simpledotcss/simple.min.css"
+    />
     <style>
       :root {
-        --font-family: initial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        /*Add initial font to the list so that the font is allways the one the user has chosen*/
+        --sans-font: initial, -apple-system, BlinkMacSystemFont, "Avenir Next",
+          Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
+          "Helvetica Neue", sans-serif;
       }
     </style>
   </head>
   <body>
-    <main>
-      <h1>My Personal Website</h1>
+    <header>
+      <h1>Hi, I'm Pavel Hrdina</h1>
       <p>
-        This is a test website for my personal website
-        <a href="http://google.com">Test</a>
+        I am a dedicated computer engineering student passionate about Linux and
+        open source.
       </p>
-    </main>
+    </header>
   </body>
 </html>
