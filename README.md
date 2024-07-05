@@ -10,7 +10,7 @@ Web development need not be complicated or stressful, requiring entire teams. It
 
 # License 
 
-This project is licensed under the [CC BY-SA 4.0](LICENSE) License - see the LICENSE.md file for details
+This project is licensed under the [MIT](LICENSE) License - see the LICENSE.md file for details
 
 # Acknowledgments
 
