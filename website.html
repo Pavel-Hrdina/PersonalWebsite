@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="user">
+  <!-- specify language: http://www.w3.org/TR/html401/struct/dirlang.html#h-8.1 -->
+  <head prefix="og: http://ogp.me/ns#">
+    <!-- enable Open Graph: http://ogp.me/ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- charset & http-equiv may be set via response header: https://github.com/h5bp/html5-boilerplate/blob/master/doc/html.md#x-ua-compatible -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>A11Y Boilerplate</title>
+    <meta
+      name="description"
+      content="The Accessibility Boilerplate is a basic HTML template to kickstart your web project responsibly."
+    />
+    <meta
+      name="keywords"
+      content="a11y, accessibility, html5, boilerplate, template, aria, landmark roles, structure, banner, search, navigation, contentinfo"
+    />
+    <meta
+      property="og:image"
+      content="http://voorhoede.github.io/a11y-boilerplate/a11y-boilerplate.png"
+    />
+    <meta property="og:url" content="http://voorhoede.github.io/" />
+    <!-- optionally add more Open Graph metadata: http://ogp.me/#metadata -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- specify viewport: https://developers.google.com/speed/docs/insights/ConfigureViewport -->
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+    <!-- Enable styling differentation between JavaScript and non-JavaScript enabled browsers -->
+    <script>
+      (function (e) {
+        e.className = e.className.replace("no-js", "js");
+      })(document.documentElement);
+    </script>
+    <!-- Enable styling of HTML5 sectioning elements in legacy browsers. Simplified inline version of HTML5Shiv (https://github.com/aFarkas/html5shiv) for enhanced performance -->
+    <!--[if lt IE 9]>
+      <script>
+        (function (d, a) {
+          d.documentElement.className = "lt-ie9";
+          var l = a.length;
+          while (l--) {
+            d.createElement(a[l]);
+          }
+        })(document, [
+          "HEADER",
+          "NAV",
+          "SECTION",
+          "FOOTER",
+          "ARTICLE",
+          "MAIN",
+          "FIGCAPTION",
+          "FIGURE",
+          "ASIDE",
+        ]);
+      </script>
+    <![endif]-->
+
+    <!-- Include stylesheets here. Concatenate & minify for performance: https://developers.google.com/speed/docs/insights/MinifyResources -->
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+    <style>
+      :root {
+        --font-family: initial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Personal Website</h1>
+      <p>
+        This is a test website for my personal website
+        <a href="http://google.com">Test</a>.
+      </p>
+    </header>
+  </body>
+</html>
